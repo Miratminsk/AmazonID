@@ -28,7 +28,6 @@ public class browsers {
 			System.setProperty("webdriver.gecko.driver", "C:\\Users\\mirat\\drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
-		System.out.println("Hi");
 		return driver;
 	}
 	}

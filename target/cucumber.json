@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3803167600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Initialize WebDriver",
+            "match": {
+              "location": "StepDefinition.initialize_webdriver()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7809252700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open webpage and go to sign in page",
+            "match": {
+              "location": "StepDefinition.open_webpage_and_go_to_sign_in_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Login with valid username and unvalid password",
+        "description": "",
+        "id": "login-in-application;login-with-valid-username-and-unvalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 243600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.getScreenShot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2319593200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.the_test_is_completed()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1261603000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User login with valid username and unvalid password",
+            "match": {
+              "location": "StepDefinition.user_login_with_valid_username_and_unvalid_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56441400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Unvalid password error is displayed",
+            "match": {
+              "location": "StepDefinition.unvalid_password_error_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@RegTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login in application",
+    "description": "",
+    "id": "login-in-application",
+    "keyword": "Feature",
+    "uri": "mainPage.feature"
+  }
+]

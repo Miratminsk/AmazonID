@@ -1,3 +1,47 @@
 20:32:15.603 [main] INFO  basicsFiles.browsers - Driver is initialized
 20:32:20.286 [main] INFO  basicsFiles.browsers - User on sigh in page
 20:32:24.676 [main] INFO  basicsFiles.browsers - Test is completed
+22:39:42.433 [main] INFO  basicsFiles.browsers - Driver is initialized
+22:39:43.186 [main] INFO  basicsFiles.browsers - Test is completed
+22:41:47.441 [main] INFO  basicsFiles.browsers - Driver is initialized
+22:41:49.581 [main] INFO  basicsFiles.browsers - Test is completed
+22:56:44.984 [main] INFO  basicsFiles.browsers - Driver is initialized
+22:56:46.827 [main] INFO  basicsFiles.browsers - Test is completed
+22:58:52.751 [main] INFO  basicsFiles.browsers - Driver is initialized
+22:58:53.711 [main] INFO  basicsFiles.browsers - Test is completed
+23:06:50.987 [main] INFO  basicsFiles.browsers - Driver is initialized
+23:06:51.826 [main] INFO  basicsFiles.browsers - Test is completed
+23:11:53.709 [main] INFO  basicsFiles.browsers - Driver is initialized
+23:11:56.287 [main] INFO  basicsFiles.browsers - Test is completed
+23:19:53.578 [main] INFO  basicsFiles.browsers - Driver is initialized
+23:19:56.288 [main] INFO  basicsFiles.browsers - Test is completed
+23:26:51.027 [main] INFO  basicsFiles.browsers - Driver is initialized
+23:26:51.843 [main] INFO  basicsFiles.browsers - Test is completed
+23:29:28.416 [main] INFO  basicsFiles.browsers - Driver is initialized
+23:29:39.005 [main] INFO  basicsFiles.browsers - User on sigh in page
+23:29:41.433 [main] INFO  basicsFiles.browsers - Test is completed
+23:32:24.096 [main] INFO  basicsFiles.browsers - Driver is initialized
+23:32:32.835 [main] INFO  basicsFiles.browsers - User on sigh in page
+23:32:35.485 [main] INFO  basicsFiles.browsers - User put valid email and unvalid password
+23:32:35.566 [main] INFO  basicsFiles.browsers - Login with valid username and unvalid password
+23:32:38.909 [main] INFO  basicsFiles.browsers - Test is completed
+00:01:20.556 [main] INFO  basicsFiles.browsers - Driver is initialized
+00:01:28.245 [main] INFO  basicsFiles.browsers - User on sigh in page
+00:01:29.551 [main] INFO  basicsFiles.browsers - User put valid email and unvalid password
+00:01:29.846 [main] INFO  basicsFiles.browsers - Login with valid username and unvalid password
+00:01:32.224 [main] INFO  basicsFiles.browsers - Test is completed
+00:04:47.275 [main] INFO  basicsFiles.browsers - Driver is initialized
+00:05:03.064 [main] INFO  basicsFiles.browsers - User on sigh in page
+00:05:04.316 [main] INFO  basicsFiles.browsers - User put valid email and unvalid password
+00:05:04.531 [main] INFO  basicsFiles.browsers - Login with valid username and unvalid password
+00:05:07.071 [main] INFO  basicsFiles.browsers - Test is completed
+00:08:34.090 [main] INFO  basicsFiles.browsers - Driver is initialized
+00:08:42.956 [main] INFO  basicsFiles.browsers - User on sigh in page
+00:08:44.825 [main] INFO  basicsFiles.browsers - User put valid email and unvalid password
+00:08:44.926 [main] INFO  basicsFiles.browsers - Login with valid username and unvalid password
+00:08:47.224 [main] INFO  basicsFiles.browsers - Test is completed
+00:18:44.891 [main] INFO  basicsFiles.browsers - Driver is initialized
+00:19:13.038 [main] INFO  basicsFiles.browsers - User on sigh in page
+00:19:14.070 [main] INFO  basicsFiles.browsers - User put valid email and unvalid password
+00:19:14.177 [main] INFO  basicsFiles.browsers - Login with valid username and unvalid password
+00:19:17.001 [main] INFO  basicsFiles.browsers - Test is completed

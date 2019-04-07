@@ -3,6 +3,7 @@
 <suite name="Suite">
 <listeners>
 <listener class-name="pages.Listeners"></listener>
+<listener class-name="resources.extentReports"/>
 </listeners>
   <test name="LogIn">
     <classes>

@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3456510400,
+              "duration": 7340746600,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 4672453000,
+              "duration": 28149668600,
               "status": "passed"
             },
             "line": 5,
@@ -36,18 +36,27 @@
         ]
       },
       {
-        "line": 18,
-        "name": "Validate SignIn button is present",
+        "line": 13,
+        "name": "Login with valid username and unvalid password",
         "description": "",
-        "id": "login-in-application;validate-signin-button-is-present",
+        "id": "login-in-application;login-with-valid-username-and-unvalid-password",
         "after": [
           {
             "result": {
-              "duration": 2338759800,
+              "duration": 2823143800,
               "status": "passed"
             },
             "match": {
               "location": "Hooks.the_test_is_completed()"
+            }
+          },
+          {
+            "result": {
+              "duration": 124700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.getScreenShot(Scenario)"
             }
           }
         ],
@@ -56,21 +65,33 @@
         "steps": [
           {
             "result": {
-              "duration": 2046187400,
+              "duration": 1013876000,
               "status": "passed"
             },
-            "line": 19,
-            "name": "Validate SignIn button is present",
+            "line": 14,
+            "name": "User login with valid username and unvalid password",
             "match": {
-              "location": "StepDefinition.validate_signin_button_is_present()"
+              "location": "StepDefinition.user_login_with_valid_username_and_unvalid_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 105886800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Unvalid password error is displayed",
+            "match": {
+              "location": "StepDefinition.unvalid_password_error_is_displayed()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 17,
-            "name": "@Cloud"
+            "line": 12,
+            "name": "@RegTest"
           }
         ]
       }

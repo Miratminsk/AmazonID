@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.513911">
-    <testcase classname="Login in application" name="Validate SignIn button is present" time="12.513911">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="39.433447">
+    <testcase classname="Login in application" name="Login with valid username and unvalid password" time="39.433447">
         <system-out>
             <![CDATA[Given Initialize WebDriver..................................................passed
 When Open webpage and go to sign in page....................................passed
-Then Validate SignIn button is present......................................passed
+Then User login with valid username and unvalid password....................passed
+Then Unvalid password error is displayed....................................passed
 ]]>
         </system-out>
     </testcase>

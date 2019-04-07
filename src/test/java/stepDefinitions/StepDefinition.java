@@ -25,7 +25,8 @@ public class StepDefinition extends browsers{
 
 	@When("^Open webpage and go to sign in page$")
     public void open_webpage_and_go_to_sign_in_page() throws Throwable {
-    	driver.get(property.getProperty("URL"));
+		driver.get(rs.getString("URL"));
+    	//driver.get(property.getProperty("URL"));
         driver.manage().window().maximize();
         WebDriverWait wait = new WebDriverWait(driver, 10);
         loginPageObjects loginPageObjects = new loginPageObjects(driver);
@@ -58,8 +59,10 @@ public class StepDefinition extends browsers{
     	loginPageObjects loginPageObjects = new loginPageObjects(driver);
     	WebDriverWait wait = new WebDriverWait(driver, 10);
     	wait.until(ExpectedConditions.elementToBeClickable(loginPageObjects.getEmail()));
-    	loginPageObjects.getEmail().sendKeys(property.getProperty("email"));
-    	loginPageObjects.getPassword().sendKeys(property.getProperty("unValidPassword"));
+    	loginPageObjects.getEmail().sendKeys(rs.getString("Username"));
+    	//loginPageObjects.getEmail().sendKeys(property.getProperty("email"));
+    	loginPageObjects.getPassword().sendKeys(rs.getString("Passwords"));
+    	//loginPageObjects.getPassword().sendKeys(property.getProperty("unValidPassword"));
     	loginPageObjects.getSignInSubmitButtton().click();
     	Log.info("User put valid email and unvalid password");
     }

@@ -29,7 +29,7 @@ public class Hooks extends browsers{
 		
 		if (scenario.isFailed()) {
 			File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(screenshot, new File("C://Users//mirat//eclipse-workspace//AmazonID//screenshots//screenshots.png" + System.currentTimeMillis()));
+			FileUtils.copyFile(screenshot, new File("C:\\Users\\mirat\\git\\AmazonID\\AmazonID\\screenshots\\screenshots.png" + System.currentTimeMillis()));
     }
 	}
 }

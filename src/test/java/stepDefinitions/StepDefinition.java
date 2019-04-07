@@ -56,6 +56,8 @@ public class StepDefinition extends browsers{
     @Then("^User login with valid username and unvalid password$")
     public void user_login_with_valid_username_and_unvalid_password() throws Throwable {
     	loginPageObjects loginPageObjects = new loginPageObjects(driver);
+    	WebDriverWait wait = new WebDriverWait(driver, 10);
+    	wait.until(ExpectedConditions.elementToBeClickable(loginPageObjects.getEmail()));
     	loginPageObjects.getEmail().sendKeys(property.getProperty("email"));
     	loginPageObjects.getPassword().sendKeys(property.getProperty("unValidPassword"));
     	loginPageObjects.getSignInSubmitButtton().click();
@@ -70,5 +72,12 @@ public class StepDefinition extends browsers{
     	Log.info("Login with valid username and unvalid password");
     }   
     
+    @Then("^Validate SignIn button is present$")
+    public void validate_signin_button_is_present() throws Throwable {
+    	loginPageObjects loginPageObjects = new loginPageObjects(driver);
+    	loginPageObjects.getSignInSubmitButtton().isDisplayed();
+    	
+    }
+
    
     }

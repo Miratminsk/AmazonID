@@ -14,3 +14,6 @@ Scenario: Login with valid username and unvalid password
 Then User login with valid username and unvalid password
 Then Unvalid password error is displayed
 
+@Cloud
+Scenario: Validate SignIn button is present
+Then Validate SignIn button is present

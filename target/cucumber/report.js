@@ -27,60 +27,44 @@ formatter.match({
   "location": "StepDefinition.initialize_webdriver()"
 });
 formatter.result({
-  "duration": 3803167600,
+  "duration": 3456510400,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.open_webpage_and_go_to_sign_in_page()"
 });
 formatter.result({
-  "duration": 7809252700,
+  "duration": 4672453000,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 13,
-  "name": "Login with valid username and unvalid password",
+  "line": 18,
+  "name": "Validate SignIn button is present",
   "description": "",
-  "id": "login-in-application;login-with-valid-username-and-unvalid-password",
+  "id": "login-in-application;validate-signin-button-is-present",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 12,
-      "name": "@RegTest"
+      "line": 17,
+      "name": "@Cloud"
     }
   ]
 });
 formatter.step({
-  "line": 14,
-  "name": "User login with valid username and unvalid password",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 15,
-  "name": "Unvalid password error is displayed",
+  "line": 19,
+  "name": "Validate SignIn button is present",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "StepDefinition.user_login_with_valid_username_and_unvalid_password()"
+  "location": "StepDefinition.validate_signin_button_is_present()"
 });
 formatter.result({
-  "duration": 1261603000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinition.unvalid_password_error_is_displayed()"
-});
-formatter.result({
-  "duration": 56441400,
+  "duration": 2046187400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 243600,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 2319593200,
+  "duration": 2338759800,
   "status": "passed"
 });
 });

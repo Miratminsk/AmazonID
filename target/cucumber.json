@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3803167600,
+              "duration": 3456510400,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 7809252700,
+              "duration": 4672453000,
               "status": "passed"
             },
             "line": 5,
@@ -36,23 +36,14 @@
         ]
       },
       {
-        "line": 13,
-        "name": "Login with valid username and unvalid password",
+        "line": 18,
+        "name": "Validate SignIn button is present",
         "description": "",
-        "id": "login-in-application;login-with-valid-username-and-unvalid-password",
+        "id": "login-in-application;validate-signin-button-is-present",
         "after": [
           {
             "result": {
-              "duration": 243600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.getScreenShot(Scenario)"
-            }
-          },
-          {
-            "result": {
-              "duration": 2319593200,
+              "duration": 2338759800,
               "status": "passed"
             },
             "match": {
@@ -65,33 +56,21 @@
         "steps": [
           {
             "result": {
-              "duration": 1261603000,
+              "duration": 2046187400,
               "status": "passed"
             },
-            "line": 14,
-            "name": "User login with valid username and unvalid password",
+            "line": 19,
+            "name": "Validate SignIn button is present",
             "match": {
-              "location": "StepDefinition.user_login_with_valid_username_and_unvalid_password()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 56441400,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Unvalid password error is displayed",
-            "match": {
-              "location": "StepDefinition.unvalid_password_error_is_displayed()"
+              "location": "StepDefinition.validate_signin_button_is_present()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 12,
-            "name": "@RegTest"
+            "line": 17,
+            "name": "@Cloud"
           }
         ]
       }
